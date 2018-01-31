@@ -16,7 +16,11 @@
   "engines": {
     "node": "9.3.0"
   },
-  "devDependencies": {
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "moment": "^2.20.1",
+    "react-with-direction": "^1.2.0",
+    "react-with-styles": "^2.4.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -47,11 +51,5 @@
     "uuid": "^3.2.1",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1"
-  },
-  "dependencies": {
-    "live-server": "^1.2.0",
-    "moment": "^2.20.1",
-    "react-with-direction": "^1.2.0",
-    "react-with-styles": "^2.4.0"
   }
 }
